@@ -1,0 +1,9 @@
+[package]
+name = "drv8837"
+version = "0.1.0"
+description="DRV8837"
+authors = ["Natesh Narain <nnaraindev@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+embedded-hal = {version = "0.2", features = ["unproven"]}
